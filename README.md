@@ -21,11 +21,11 @@ This srcript not only automates the process for creating a wrapper app for a Chr
  
 ### Usage
  
-    . chrome_profile_create_app.sh [--force] PROFILE_NAME [CHROME_ARGS]
+    . chrome_profile_create_app.sh [--force] PROFILE_NAME [CHROME-ARGS]
      
 - _[--force]_      
 Optional. If given profile name already exists, causes it to be wiped and re-created.
 - __PROFILE_NAME__  
 Unique name for the profile.  This will used as the suffix to the app name and the appdata directory name.
-- _[CHROME_ARGS]_  
+- _[CHROME-ARGS]_  
 Optional. Additional arguments to pass to Chrome.
