@@ -130,7 +130,7 @@ function chrome_profile_create_app {
     # Google Chrome ProfileApp paths - data
     APP_CHROME_DATA_DIR="$SYS_CHROME_DATA_DIR/$PROFILE_NAME"
     # Google Chrome ProfileApp paths - cache
-    APP_CHROME_CACHE_DIR="$SYS_USER_DIR/Library/Caches/Google/Chrome/allprofiles"
+    APP_CHROME_CACHE_DIR="$APP_CHROME_DATA_DIR/Cache"
     
     
     #APP_SKEL_DIR="$SYS_GOOGLE_DATA_DIR/ChromeCustomAssets/skel-app"
